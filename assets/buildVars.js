@@ -27,8 +27,6 @@ function getVarParams(varRow) {
         varString.concat(`</variables>
 `);
     }
-
-    return varString;
 }
 
 module.exports = buildVars;
