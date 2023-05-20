@@ -8,9 +8,10 @@ const header = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 </STSource>
 	</program>
-	<dataBlock>`;
+	<dataBlock>
+`;
 
-const footer = `</dataBlock>
+const footer = `    </dataBlock>
 </STExchangeFile>`;
 
 module.exports = { header, footer };

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ckester99/modicon-PLC-variable-import#readme",
   "dependencies": {
+    "convert-csv-to-array": "^1.0.3",
     "node-file-dialog": "^1.0.3"
   }
 }
