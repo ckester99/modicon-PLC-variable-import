@@ -29,10 +29,10 @@ function getVarParams(varRow) {
     if (varRow[2]) {
         varString = varString.concat(
             `           <comment>${varRow[2]}</comment>
-`
+            </variables>`
         );
     } else {
-        varString = varString.concat(`       </variables>
+        varString = varString.concat(`</variables>
 `);
     }
 
